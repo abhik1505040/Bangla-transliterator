@@ -40,13 +40,13 @@ class Transliterator:
 
                             # approach 2: use attestation scores with edit distance as tiebreaker
                             highest_scored_transliteration = max(transliteration_map, 
-                                                                    key=lambda k: int(transliteration_map[k]))
+                                                                 key=lambda k: int(transliteration_map[k]))
                             highest_score = transliteration_map[highest_scored_transliteration]
                             candidate_transliterations = [k for k, v in transliteration_map.items() if v == highest_score]
 
                             if len(candidate_transliterations) > 1:
                                 selected_transliteration = min(candidate_transliterations, 
-                                                                key=lambda k: distance(current_transliteration, k))
+                                                               key=lambda k: distance(current_transliteration, k))
                             else:
                                 selected_transliteration = highest_scored_transliteration
 
