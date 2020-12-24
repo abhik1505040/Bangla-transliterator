@@ -59,6 +59,8 @@ ConsonantMap =  [
                 'nch',
                 'nchh',
                 'nch',
+                'a',
+                'w',
                 
 
 
@@ -92,7 +94,7 @@ ConsonantMap =  [
                 'bh', # bh
                 '\u006D', # m
 
-                '\u0079', # y
+                'j', # j
                 '\u0072', # r
                 '\u006C', # l
                 '\u0076', # assamese
