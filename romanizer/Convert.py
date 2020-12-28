@@ -2,7 +2,7 @@
 
 from . import GeneralMap as GM, PreProcess as PrP, ConvertFix as CF
 from . import PostProcess as PP
-import modified_aksharamukha.ScriptMap.EastIndic.SiddhamRanjana as SR
+import romanizer.ScriptMap.EastIndic.SiddhamRanjana as SR
 import string
 import re
 from functools import cmp_to_key

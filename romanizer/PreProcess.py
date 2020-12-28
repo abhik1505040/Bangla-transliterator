@@ -5,8 +5,8 @@ import re
 import string
 from . import PostProcess
 from . import ConvertFix as CF
-from modified_aksharamukha.ScriptMap.EastIndic import PhagsPa
-from modified_aksharamukha.ScriptMap.MainIndic import Tamil, Malayalam, Limbu
+from romanizer.ScriptMap.EastIndic import PhagsPa
+from romanizer.ScriptMap.MainIndic import Tamil, Malayalam, Limbu
 ### Use escape char in all functions
 
 def UrduShortNotShown(Strng):

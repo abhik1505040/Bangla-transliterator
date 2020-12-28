@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from . import GeneralMap as GM
-from modified_aksharamukha.ScriptMap.Roman import Avestan, IAST
-from modified_aksharamukha.ScriptMap.MainIndic import Tamil,TamilGrantha, Limbu, MeeteiMayek, Urdu, Lepcha, Chakma, Kannada, Gurmukhi, Newa
-from modified_aksharamukha.ScriptMap.EastIndic import Lao, TaiTham,Tibetan,Burmese,Khmer,Balinese,Javanese,Thai, Sundanese, PhagsPa, Cham, Thaana, Rejang, ZanabazarSquare
+from romanizer.ScriptMap.Roman import Avestan, IAST
+from romanizer.ScriptMap.MainIndic import Tamil,TamilGrantha, Limbu, MeeteiMayek, Urdu, Lepcha, Chakma, Kannada, Gurmukhi, Newa
+from romanizer.ScriptMap.EastIndic import Lao, TaiTham,Tibetan,Burmese,Khmer,Balinese,Javanese,Thai, Sundanese, PhagsPa, Cham, Thaana, Rejang, ZanabazarSquare
 from . import PostProcess
 import re
 

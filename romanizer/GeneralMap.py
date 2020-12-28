@@ -10,13 +10,13 @@ from functools import reduce
 
 def ScriptPath(Script):
     if Script in MainIndic:
-        return 'modified_aksharamukha.ScriptMap.MainIndic.'+Script
+        return 'romanizer.ScriptMap.MainIndic.'+Script
     elif Script in EastIndic:
-        return 'modified_aksharamukha.ScriptMap.EastIndic.'+Script
+        return 'romanizer.ScriptMap.EastIndic.'+Script
     elif Script in Roman:
-        return 'modified_aksharamukha.ScriptMap.Roman.'+Script
+        return 'romanizer.ScriptMap.Roman.'+Script
     elif Script in NonIndic:
-        return 'modified_aksharamukha.ScriptMap.NonIndic.'+Script
+        return 'romanizer.ScriptMap.NonIndic.'+Script
 
 def retCharList(charList):
     # print(charList, globals()[charList])

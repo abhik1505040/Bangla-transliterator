@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from modified_aksharamukha import Convert as cn
+from romanizer import Convert as cn
 import xml.etree.ElementTree as ET
-from modified_aksharamukha import GeneralMap as GM
+from romanizer import GeneralMap as GM
 import re
 
 def GetSyllables(Strng,Script):

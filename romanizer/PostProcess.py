@@ -2,9 +2,9 @@
 
 from . import GeneralMap as GM
 from . import ScriptMap
-from modified_aksharamukha.ScriptMap.Roman import Avestan
-from modified_aksharamukha.ScriptMap.MainIndic import Tamil,Malayalam,Gurmukhi,Oriya,Saurashtra,Sinhala,Urdu,Devanagari, Chakma, Limbu
-from modified_aksharamukha.ScriptMap.EastIndic import Tibetan, Thai, PhagsPa, ZanabazarSquare
+from romanizer.ScriptMap.Roman import Avestan
+from romanizer.ScriptMap.MainIndic import Tamil,Malayalam,Gurmukhi,Oriya,Saurashtra,Sinhala,Urdu,Devanagari, Chakma, Limbu
+from romanizer.ScriptMap.EastIndic import Tibetan, Thai, PhagsPa, ZanabazarSquare
 from . import ConvertFix as CF
 import re
 import functools
