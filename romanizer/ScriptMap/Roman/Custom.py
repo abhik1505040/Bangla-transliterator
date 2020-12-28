@@ -52,15 +52,15 @@ ViramaMap =  [
              ]
 
 ConsonantMap =  [
-                'kkh',
-                'yo',
-                'gg',
-                'nj',
-                'nch',
-                'nchh',
-                'nch',
-                'a',
-                'w',
+                # 'kkh',
+                # 'yo',
+                # 'gg',
+                # 'nj',
+                # 'nch',
+                # 'nchh',
+                # 'nch',
+                # 'a',
+                # 'w',
                 
 
 
@@ -71,7 +71,7 @@ ConsonantMap =  [
                 '\u006E\u0067', # ng  
 
                 '\u0063\u0068', # ch
-                '\u0063\u0068\u0068', # chh
+                '\u0063\u0068', # ch
                 '\u006A', # j
                 '\u006A\u0068', # jh
                 'y',
@@ -91,7 +91,7 @@ ConsonantMap =  [
                 '\u0070', # p
                 '\u0066', # f
                 '\u0062', # b
-                'bh', # bh
+                'v', # v
                 '\u006D', # m
 
                 'j', # j

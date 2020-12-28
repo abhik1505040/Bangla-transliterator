@@ -74,15 +74,15 @@ ViramaMap =  [
              ]
 
 ConsonantMap =  [
-                'ক্ষ',
-                '\u09CD\u09AF', # jofola
-                '\u099C\u09CD\u099E', # ঞ + জ
-                '\u099E\u09CD\u099C', # 
-                'ঞ্চ',
-                'ঞ্ছ',
-                'ঞ্ঝ',
-                '\u0985\u09CD\u09AF',
-                '\u09CD\u09AC',
+                # 'ক্ষ',
+                # '\u09CD\u09AF', # jofola
+                # '\u099C\u09CD\u099E', # ঞ + জ
+                # '\u099E\u09CD\u099C', # 
+                # 'ঞ্চ',
+                # 'ঞ্ছ',
+                # 'ঞ্ঝ',
+                # '\u0985\u09CD\u09AF',
+                # '\u09CD\u09AC',
                 
                 
                 
