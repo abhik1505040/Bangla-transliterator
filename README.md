@@ -4,7 +4,7 @@ A rule based bengali romanization module.
 
 ## Details
 
-Based on the dakshina dataset and custom rules added on top of `aksharamukha`.
+Based on the `dakshina` dataset and custom rules added on top of `aksharamukha`.
 
 **Exact details will be added soon.**
 
@@ -16,7 +16,7 @@ python setup.py install
 ## Usage
 
 ```python
-from modified_aksharamukha import Transliterator
+from romanizer import Transliterator
 t = Transliterator() 
 t.process_line('সে লাল গোলাপ পছন্দ করে।')
 
